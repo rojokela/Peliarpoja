@@ -16,3 +16,8 @@ Arpoessa myös katsotaan pelien maksimipelaaja määrä ja varmistetaan että kaikki 
   4. Lisää peli listaan
   5. Arvostele pelejä 
   6. Arvo peli
+
+
+
+
+![Kaavio](http://yuml.me/3f5eaf58)
