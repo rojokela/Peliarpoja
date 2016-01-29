@@ -18,6 +18,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        //TÄÄLLÄ OLEVA KOODI ON VAIN JA AINOASTAAN HELPOTTAMAAN AJATUS PROSESSIA JA TESTAAMAAN MANUAALISESTI TOMINTAA, MIKÄÄN EI OLE LOPULLISTA
+        
 //        Arpoja arpoja = new Arpoja();
 //        System.out.println("Mitä haluat?");
 //        System.out.println("1. Lisää henkilö");
