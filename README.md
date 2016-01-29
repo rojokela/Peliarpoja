@@ -1,1 +1,1 @@
-# Peliarpoja moi taas
+# Peliarpoja on sovellus joka arpoo pelin pelaajien lukum‰‰r‰n ja arvostelujen perusteella. K‰ytt‰j‰ voi luoda oman profiilin ja arvostella pelej‰.
