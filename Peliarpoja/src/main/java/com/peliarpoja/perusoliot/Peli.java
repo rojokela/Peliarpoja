@@ -36,6 +36,7 @@ public class Peli {
         this.maksimiPelaajaMaara = maksimiPelaajaMaara;
     }
     
+    @Override
     public String toString(){
         return this.nimi;
     }

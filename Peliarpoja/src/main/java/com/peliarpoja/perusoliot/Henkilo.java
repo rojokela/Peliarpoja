@@ -36,5 +36,10 @@ public class Henkilo {
     public void setArvostelut(List<Peliarvostelu> arvostelut) {
         this.arvostelut = arvostelut;
     }
+    
+    @Override
+    public String toString() {
+        return this.nimi;
+    }
 
 }

@@ -5,6 +5,7 @@ public class Peliarvostelu {
     private Henkilo arvostelija;
     private Peli peli;
     private int arvosana;
+    //arvosana 0-2, 2 tarkoittaa haluaa pelata, 1 ei vastusta pelaamista, 0 ei halua pelata
 
     public int getArvosana() {
         return arvosana;

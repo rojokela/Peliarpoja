@@ -23,6 +23,15 @@ public class Pelikokoelma {
         this.pelit.add(peli);
     }
     
+    public Peli haePeli(String nimi) {
+        for (Peli peli : pelit) {
+            if(peli.getNimi().equals(nimi)) {
+                return peli;
+            }
+        }
+        return null;
+    }
+    
     public List<Peli> getPelit() {
         return pelit;
     }
