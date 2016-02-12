@@ -6,6 +6,7 @@
 package com.peliarpoja.arpoja;
 
 import com.peliarpoja.perusoliot.Peli;
+import com.peliarpoja.perusoliot.Pelisessio;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,11 +45,14 @@ public class Arpoja {
         return arvoPeli(toinenLista);
     }
     
-    public Peli arvoArvostelujenMukaan(List<Peli> lista) {
-        for (Peli peli : lista) {
-            
+    public Peli arvoArvostelujenMukaan(Pelisessio p) {
+        List<Peli>  lista = p.haeArvosteluLista();
+        if(lista.isEmpty()) {
+            return null;
+        } else {
+            return arvoPeli(lista);
         }
-        return null;
+        
     }
 
     public int getPelaajienMaara() {
