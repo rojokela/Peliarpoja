@@ -14,13 +14,15 @@ import java.util.List;
  * @author Kompuutteri
  */
 public class Arpoja {
+
     private int pelaajienMaara;
+
     public Arpoja() {
 
     }
 
     public Peli arvoPeli(List<Peli> lista) {
-        if(lista.isEmpty()) {
+        if (lista.isEmpty()) {
             return null;
         }
         int x = (int) (Math.random() * lista.size());
@@ -30,18 +32,23 @@ public class Arpoja {
 
     public Peli arvoPeliPelaajienMaaranMukaan(List<Peli> lista) {
         List<Peli> toinenLista = new ArrayList<>();
-        boolean lapi = true;
+
         for (Peli peli : lista) {
             if (pelaajienMaara <= peli.getMaksimiPelaajaMaara() && pelaajienMaara >= peli.getMinimiPelaajaMaara()) {
                 toinenLista.add(peli);
-                lapi = false;
+
             }
 
         }
-        if(lapi) {
-            return null;
-        }
+
         return arvoPeli(toinenLista);
+    }
+    
+    public Peli arvoArvostelujenMukaan(List<Peli> lista) {
+        for (Peli peli : lista) {
+            
+        }
+        return null;
     }
 
     public int getPelaajienMaara() {
